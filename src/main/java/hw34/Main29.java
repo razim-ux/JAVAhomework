@@ -1,13 +1,13 @@
-package hw3;
+package hw34;
 
 import java.util.Scanner;
 
 public class Main29 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int month = scanner.nextInt();
+        int mon = scanner.nextInt();
 
-        switch (month) {
+        switch (mon) {
             case 12:
             case 1:
             case 2:

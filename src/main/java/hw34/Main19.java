@@ -1,16 +1,16 @@
-package hw3;
+package hw34;
 
 import java.util.Scanner;
 
-public class Main18 {
+public class Main19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
 
-        if (number % 7 == 0) {
-            System.out.println("кратно 7");
+        if (number >= 10 && number <= 99) {
+            System.out.println("двузначное");
         } else {
-            System.out.println("не кратно 7");
+            System.out.println("не двузначное");
         }
     }
 }
